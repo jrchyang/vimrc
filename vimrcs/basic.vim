@@ -77,7 +77,10 @@ else
 endif
 
 " Always show current position
+set nu
 set ruler
+set cursorline
+highlight ColorColumn ctermbg=lightcyan guibg=blue
 
 " Height of the command bar
 set cmdheight=1
@@ -182,9 +185,11 @@ set noswapfile
 " Be smart when using tabs ;)
 set smarttab
 
-" 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+" 1 tab == 8 spaces
+set shiftwidth=2
+set tabstop=8
+set softtabstop=8
+set noexpandtab
 
 " Linebreak on 500 characters
 set lbr
