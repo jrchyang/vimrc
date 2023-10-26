@@ -20,6 +20,8 @@ The awesome version includes a lot of great plugins, configurations and color sc
 	cd ~/.vim_runtime
 	git submodule update --init --recursive
 	# if with root add --force-sudo option
+	# if any module failed, go with
+	# --clang-completer --clangd-completer --cs-completer --go-completer --rust-completer --java-completer --ts-completer
 	python3 ~/.vim_runtime/my_plugins/YouCompleteMe/install.py --all
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 	
