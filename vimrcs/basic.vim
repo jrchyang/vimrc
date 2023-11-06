@@ -30,6 +30,9 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Do not show mode
+set noshowmode
+
 " Sets how many lines of history VIM has to remember
 set history=500
 
