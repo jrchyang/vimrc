@@ -25,3 +25,8 @@ let g:ycm_rust_src_path = "/root/.rustup/toolchains/stable-x86_64-unknown-linux-
 
 nnoremap <leader>go :YcmCompleter GoTo<CR>
 nnoremap <leader>gf :YcmCompleter GoToDefinitionElseDeclaration<CR>
+nmap <leader>yfw <Plug>(YCMFindSymbolInWorkspace)
+nmap <leader>yfd <Plug>(YCMFindSymbolInDocument)
+
+" CtrlP
+let g:ctrlp_by_filename = 1
