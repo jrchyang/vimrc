@@ -30,3 +30,7 @@ nmap <leader>yfd <Plug>(YCMFindSymbolInDocument)
 
 " CtrlP
 let g:ctrlp_by_filename = 1
+
+" Ack
+nmap <Leader>ac :Ack<space>-i<space>--ignore-dir=.git<space>--ignore-dir=.cache<space>--type=cc<space>--type=cpp<space>
+nmap <Leader>ay :Ack<space>-i<space>--ignore-dir=.git<space>--ignore-dir=.cache<space>--ignore-dir=qa<space>--type=yaml<space>
