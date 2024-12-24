@@ -40,6 +40,7 @@ nmap <Leader>ac :Ack<space>-i<space>--ignore-dir=.git<space>--ignore-dir=.cache<
 nmap <Leader>ay :Ack<space>-i<space>--ignore-dir=.git<space>--ignore-dir=.cache<space>--ignore-dir=qa<space>--type=yaml<space>
 
 " polyglot
+packadd! vim-polyglot
 
 " onedark
 packadd! onedark.vim
