@@ -1,3 +1,7 @@
+" Common
+set nocompatible
+syntax on
+
 " YouCompleteMe
 
 " 关闭自动提示
@@ -34,3 +38,8 @@ let g:ctrlp_by_filename = 1
 " Ack
 nmap <Leader>ac :Ack<space>-i<space>--ignore-dir=.git<space>--ignore-dir=.cache<space>--type=cc<space>--type=cpp<space>
 nmap <Leader>ay :Ack<space>-i<space>--ignore-dir=.git<space>--ignore-dir=.cache<space>--ignore-dir=qa<space>--type=yaml<space>
+
+" polyglot
+
+" onedark
+colorscheme onedark
