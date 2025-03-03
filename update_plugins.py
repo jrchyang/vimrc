@@ -56,6 +56,8 @@ mru.vim https://github.com/vim-scripts/mru.vim
 editorconfig-vim https://github.com/editorconfig/editorconfig-vim
 dracula https://github.com/dracula/vim
 copilot.vim https://github.com/github/copilot.vim
+vim-airline https://github.com/vim-airline/vim-airline
+vim-airline-themes https://github.com/vim-airline/vim-airline-themes
 """.strip()
 
 GITHUB_ZIP = "%s/archive/master.zip"
